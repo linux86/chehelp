@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="200dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.chehelp.MainActivity" >
+
+    <Button
+        android:id="@+id/searche_bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/searche_bt" />
+	
+    <fragment  
+        android:id="@+id/fragment1"  
+        android:name="com.chehelp.BoundBTListFragment"  
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"  
+        android:layout_weight="1" />
+    
+</LinearLayout>
